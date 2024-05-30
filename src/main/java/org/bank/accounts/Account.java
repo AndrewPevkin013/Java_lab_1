@@ -28,6 +28,4 @@ public abstract class Account {
     public abstract void transfer(Account toAccount, double amount);
 
     public abstract void processMonthlyOperation(double interestRate);
-
-    // Other methods...
 }

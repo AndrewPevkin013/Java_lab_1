@@ -47,6 +47,6 @@ public class DepositAccount extends Account {
     @Override
     public void processMonthlyOperation(double interestRate) {
         double dailyInterest = interestRate / 365;
-        balance += balance * dailyInterest * 30; // Simplified monthly interest calculation
+        balance += balance * dailyInterest * 30;
     }
 }

@@ -36,6 +36,6 @@ public class DebitAccount extends Account {
     @Override
     public void processMonthlyOperation(double interestRate) {
         double dailyInterest = interestRate / DAILY_INTEREST_DIVISOR;
-        balance += balance * dailyInterest * 30; // Simplified monthly interest calculation
+        balance += balance * dailyInterest * 30;
     }
 }

@@ -3,9 +3,6 @@ package org.bank;
 import org.bank.accounts.Account;
 import org.bank.clients.Client;
 
-import java.time.LocalDate;
-import java.time.Period;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -79,6 +76,4 @@ public class Bank {
     public void addAccount(Account account) {
         accountList.add(account);
     }
-
-    // Other methods...
 }
